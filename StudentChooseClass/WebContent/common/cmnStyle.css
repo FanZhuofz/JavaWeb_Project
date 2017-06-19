@@ -1,0 +1,44 @@
+/*****common*****/
+body {FONT-SIZE: 12px;}
+td {FONT-SIZE: 16px;}
+input {FONT-SIZE: 12px; border-color: black; border-style: solid; border-width: 1px;}
+.button {
+		width:80px; height:25px;
+}
+.button:hover {
+		color: #CE0000;
+		background-color: #8CEA00;
+	}
+.button0 {
+		width:80px; height:30px;
+		border-bottom-color:aqua;
+		border-left-color:aqua;
+		border-right-color:aqua;
+		border-top-color:aqua;
+		background:#28FF28;
+		font-size: 16px;
+		font-family: "宋体";
+		font-weight:bold;
+	}
+.button0:hover{
+		color: #CE0000;
+		background-color: #8CEA00;
+	}
+
+.menuCommon {FONT-SIZE: 12px; text-align:center; width:100px; height:30px; cursor:hand; background:url("../img/menuCommon.gif");}
+.menuSelect {FONT-SIZE: 12px; text-align:center; width:100px; height:30px; cursor:arrow; background:url("../img/menuSelect.gif");}
+
+textarea {FONT-SIZE: 12px; border-color: black; border-style: solid; border-width: 1px;}
+div { height:100%;width:100%;overflow-y:auto;}
+.td_title {FONT-SIZE: 16px; COLOR: white; background-color: #FFFFFF;}
+.hide {display: none;}
+a:link {FONT-SIZE: 16px;;color: #000000;text-decoration: none;}
+a:visited {FONT-SIZE: 12px;color: #0080FF;text-decoration: none;}
+a:hover {FONT-SIZE: 18px;color: #FF2D2D;text-decoration: underline;}
+
+/*****detail*****/
+.td_label {FONT-SIZE: 12px; COLOR: black; BACKGROUND-COLOR: #cccccc; HEIGHT: 18px; }
+.td_content {FONT-SIZE: 12px; COLOR: black; PADDING-LEFT: 2px; BACKGROUND-COLOR: #FFFFFF;}
+.sel { font-size: 12px; width: 150px; position: relative; left: -2px; top: -2px;}
+.sel_span { border:1 solid #000000; height: 19px; width: 149px; }
+.sel_div { border:1 solid #FFFFFF; overflow: hidden; width: 147px; height: 17px; }

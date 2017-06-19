@@ -1,0 +1,73 @@
+/*css样式*/
+		*{/*通配符：选择到所有的标签元素*/
+			margin:0;/*外边距*/
+			padding:0;/*内边距*/
+		}
+		html{
+			height:100%;
+		}
+		body{
+			height:100%;/*非定位元素：相对父元素的高度计算*/
+			background:url("../images/0.jpg") no-repeat;/*背景图片，只显示一张*/
+			background-size:100% 100%;
+			overflow:hidden;/*超出隐藏*/
+		}
+		#heart{/*	# id选择器*/
+			position:relative;/*相对定位：参考物*/
+			width:520px;
+			height:520px;
+			/*background:red;*/
+			margin:100px auto;	/*上下100  左右居中*/
+			/*border-radius:20px 30px 50px 100px;边框圆角属性*/
+		}
+
+
+		/*这是一个固定心
+		
+		/*css伪元素：相当于添加了一个行内元素*/
+		/*#heart:before,#heart:after{/*相当于在元素内容的前面添加内容*/
+		/*	content:"";/*必须加上 没内容的话就为空*/
+		/*	position:absolute;/*绝对定位*/
+		/*	left:4px;
+			top:0;
+			/*display:block; 浮动/绝对定位/相对定位元素漂浮起来，脱离了内元素原来所拥有的默认的一些特性不起作用了*/
+		/*	width:10px;
+			height:16px;
+			background:red;
+			border-radius:10px 10px 0 0;
+			transform:rotate(45deg);/* css3的变换：旋转45度*/
+		/*}
+		#heart:after{/*相当于在元素内容的后面添加内容*/
+		/*	left:0;
+			transform:rotate(-45deg);
+		}
+
+		*/
+
+
+
+		.snowfall-flakes{
+			width:10px !important;/*增加css属性的优先级*/
+			height:10px !important;
+			/*background:red !important;*/
+		}
+		.snowfall-flakes:before,.snowfall-flakes:after{
+			content:"";
+			position:absolute;/*绝对定位*/
+			left:4px;
+			top:0;
+			/*display:block; 浮动/绝对定位/相对定位元素漂浮起来，脱离了内元素原来所拥有的默认的一些特性不起作用了*/
+			width:10px;
+			height:16px;
+			background:red;
+			border-radius:10px 10px 0 0;
+			transform:rotate(45deg);/* css3的变换：旋转45度*/
+		}
+		.snowfall-flakes:after{
+			left:0;
+			transform:rotate(-45deg);
+		}
+		/*
+			代码的性能优化(熟悉浏览器对代码的解析机制)
+
+		*/
